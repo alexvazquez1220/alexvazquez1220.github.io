@@ -1,0 +1,53 @@
+p {
+    color: orange;
+    font-size: 2rem;
+}
+
+p span {
+    color: green;
+    text-decoration: line-through;
+}
+
+em.highlight {
+    background-color: hotpink;
+    
+}
+
+h4.highlight {
+    font-size: 3em;
+}
+
+strong.highlight {
+    color: blue;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+#overview > h4 {
+    font-family: monospace;
+    
+}
+
+h4#strategy {
+    font-stretch: extra-condensed;
+    
+}
+#ex4  section  aside  h4 {
+    color: purple;
+}
+
+#example > article > p {
+    font-size: 10px;
+}
+
+li:hover {
+ color: green;
+font-size: 50px;
+    
+}
+
+
+
+
