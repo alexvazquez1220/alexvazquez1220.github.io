@@ -1,11 +1,14 @@
 body {
-    background-color: tan;
     align-content: center;
     color: blue;
 }
 h1 {
     font-weight: 800;
     text-align: center;
+}
+section {
+    background-color: tan;
+    width: 200px;
 }
 h3 {
     color: black;
