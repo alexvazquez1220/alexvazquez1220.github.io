@@ -3,16 +3,30 @@ body {
     align-content: center;
     color: blue;
 }
-
+h1 {
+    font-weight: 800;
+    text-align: center;
+}
 h3 {
     color: black;
     
 }
 img {
-    height: 250px;
-    width: 200px;
+    display:block;
+    height: 300px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 heading {
     color: black;
+}
+p {
+    font-family: calibri;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 46em;
+    font-weight: 800;
 }
