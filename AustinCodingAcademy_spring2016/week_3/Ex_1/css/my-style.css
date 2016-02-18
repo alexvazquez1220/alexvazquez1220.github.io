@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+a {
+    text-decoration: none;
+    margin-right: 5px;
+    
+}
+div a {
+    float: right;
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 10px
+    
+}
+
+#company {
+    width: 30%;
+    background-color: #55a747;
+    float: left;
+    margin-left: 10%;
+    
+}
+
+#employee {
+    width: 30%;
+    background-color: #313131;
+    float:left;
+    
+}
+header {
+    background-color: #313131;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 9px;
+}
+div{
+    padding: 55px;
+}
+h1 {
+    color:#313131;
+    margin-left: 10%;
+}
+h2 {
+    margin-bottom: 10px;
+}
+nav {
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
