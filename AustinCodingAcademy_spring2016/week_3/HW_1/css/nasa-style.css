@@ -16,10 +16,12 @@ header {
 #name_input {
     width: 210px;
     height: 28px;
+    font-size: 18px;
 }
 #message_input {
     width: 210px;
     height: 75px;
+    font-size: 18px;
 }
 form {
     padding-left: 20px;
@@ -72,6 +74,6 @@ button {
     width: 75px;
     font-size: 20px;
     color: white;
-    background-color: dimgray
+    background-color: dimgray;
     
 }
