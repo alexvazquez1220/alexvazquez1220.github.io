@@ -1,5 +1,5 @@
+
 body {
-    align-content: center;
     color: blue;
 }
 h1 {
@@ -9,6 +9,8 @@ h1 {
 section {
     background-color: tan;
     width: 200px;
+    float: left;
+    margin: 5px
 }
 h3 {
     color: black;
