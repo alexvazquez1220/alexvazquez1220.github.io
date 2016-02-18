@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 10%;
     background-image:url(/AustinCodingAcademy_spring2016/week_3/HW_1/img/nasa-background.jpg);
     margin-bottom: 20px;
 }
@@ -35,7 +35,7 @@ section {
     background-color: lightgrey;
     width: 850px;
     height: 324px;
-    margin-left: 5%;
+    margin-left: 10%;
     
 }
 div {
