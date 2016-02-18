@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    height: 450px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    background-image:url(/AustinCodingAcademy_spring2016/week_3/HW_1/img/nasa-background.jpg);
+    margin-bottom: 20px;
+}
+#name_input {
+    width: 210px;
+    height: 28px;
+}
+#message_input {
+    width: 210px;
+    height: 75px;
+}
+form {
+    padding-left: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+}
+section {
+    background-color: lightgrey;
+    width: 850px;
+    height: 324px;
+    margin-left: 5%;
+    
+}
+div {
+    width: 270px;
+    height: 324px;
+    float:left;
+}
+h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-weight:bolder;
+}
+p {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+div:nth-child(1) {
+    margin-right: 20px;
+}
+div:nth-child(2) {
+    margin-right: 20px;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+button {
+    height: 35px;
+    width: 75px;
+    font-size: 20px;
+    color: white;
+    background-color: dimgray
+    
+}
