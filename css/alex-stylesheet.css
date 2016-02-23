@@ -1,6 +1,7 @@
 
 body {
     color: blue;
+    background-image: url(/img/digital-camo.jpg);
 }
 h1 {
     font-weight: 800;

@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+section {
+    width: 23.333%;
+    float: left;
+    margin-left: 3%
+}
+img {
+    width: 100%;
+}
+p {
+    font-size: 12px;
+}
+
+a {
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    border-right: 5px solid red;
+    text-decoration: none;
+    color: black;
+}
+
+
