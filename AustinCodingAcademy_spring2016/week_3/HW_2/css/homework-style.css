@@ -6,12 +6,10 @@
     line-height: 2;
 }
 content {
-    margin: 0 auto;
-}
-html {
-    margin: 0 auto;
+    margin:0 auto;
     width: 750px;
 }
+
 .check {
     color:green;
     padding-right:5px; 
@@ -50,6 +48,10 @@ html {
 h3 {
     font-weight:500;
     color:grey;
+}
+aside {
+    width:350px;
+    float:right;
 }
 .subsect {
     width:320px;
