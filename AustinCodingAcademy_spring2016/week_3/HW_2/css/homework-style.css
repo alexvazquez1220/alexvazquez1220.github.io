@@ -5,8 +5,11 @@
     color: grey;
     line-height: 2;
 }
+content {
+    margin: 0 auto;
+}
 html {
-    margin: 40px;
+    margin: 0 auto;
     width: 750px;
 }
 .check {
