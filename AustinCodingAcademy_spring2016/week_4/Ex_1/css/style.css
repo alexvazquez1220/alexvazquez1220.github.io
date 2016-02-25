@@ -1,0 +1,103 @@
+p, h1, a {
+    font-family: sans-serif;
+}
+
+.gardin > div {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 100px 0;
+}
+h5 {
+    opacity: .6;
+}
+
+.gardin div a {
+    color:white;
+    font-size: 10px;
+    padding: 10px 20px;
+    background-color: #84E324;
+    text-decoration: none;
+    
+}
+
+.gardin {
+    background-image: url('../img/1.jpg');
+    background-size:cover;
+    text-align: center;
+    color: white;
+    line-height: 3;
+}
+
+h1 {
+    font-size: 35px;
+    opacity: .9;
+}
+#uno {
+    background-image:url('../img/featured-image-3.jpg');
+    background-size:cover;
+    margin-bottom: 10px;
+}
+#dos {
+    background-image:url('../img/featured-image-4.jpg');
+    background-size:cover;
+}
+#tres {
+    background-image:url('../img/featured-image-5.jpg');
+    background-size:cover;
+}
+.opacity > div {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 50px 20px;
+}
+#left {
+    float:left;
+    width: 40%;
+    color:white;
+}
+#tres > div {
+    background-color: rgba(0, 0, 0, .4);
+    height: 386px;
+}
+#right {
+    float:left;
+    width: 58%;
+    background-image:url('../img/featured-image-5.jpg');
+    background-size:cover;
+    color: white;
+    margin-left: 10px;
+}
+#right p {
+    line-height: 2;
+    font-size: 15px
+}
+h2 {
+    color:#84E324;
+    font-size: 20px;
+    opacity:.8;
+}
+div > a {
+    text-decoration: none;
+    color:white;
+}
+a:nth-child(4) {
+    background-color: gray;
+    font-size: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+a:nth-child(5) {
+    padding: 10px 20px;
+    border: solid 1px white;
+    font-size: 10px;
+}
+
+
+/* IN CASE OF EMERGENCY -- USE CLEARFIX!
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+*/
