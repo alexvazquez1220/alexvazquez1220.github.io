@@ -1,7 +1,9 @@
 p, h1, a {
     font-family: sans-serif;
 }
-
+body {
+    margin: 0;
+}
 .gardin > div {
     background-color: rgba(0, 0, 0, .5);
     padding: 100px 0;
@@ -59,7 +61,7 @@ h1 {
 }
 #right {
     float:left;
-    width: 58%;
+    width: 59%;
     background-image:url('../img/featured-image-5.jpg');
     background-size:cover;
     color: white;
