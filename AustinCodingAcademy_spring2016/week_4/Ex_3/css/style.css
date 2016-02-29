@@ -43,10 +43,21 @@ main {
 }
 
 main > div {
-    background-color:rgba(0,0,0,.6);
-    padding: 200px 0px;
+    background-color:rgba(0,0,0,.8);
+    padding: 150px 0px;
 }
 
+main div p {
+    font-size: 12px;
+}
+
+main div p:nth-child(6) {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 45px;
+}
 .twoboxes {
     width: 100%;
 }
@@ -68,16 +79,15 @@ main > div {
 }
 
 h3{
-    font-weight: 800
+    font-weight: 800;
+    text-align: center;
 }
 
 .twoboxes p:nth-child(3) {
     font-size: 12px;
     color: black;
     padding-top:35px;
-    width: 90%;
-    align-content: center;
-    padding-left: 25px
+    text-align: center;
 }
 
 .twoboxes div:nth-child(2) {
@@ -87,4 +97,52 @@ h3{
 .twoboxes img {
     width: 70%;
     margin-left: 15%;
+}
+
+#section3 {
+    background-image:url(../img/wine13.jpg);
+    background-size:cover;
+    text-align:center;
+    color:white;
+}
+
+#section3 > div {
+    background-color:rgba(0,0,0,.8);
+    padding:180px 0px;
+}
+
+#section3 div p:nth-child(1) {
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+#section3 div p:nth-child(3) {
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+.wines {
+    width:33%;
+    float: left;
+    text-align: center;
+}
+
+.wines > img {
+    width:33%;
+}
+
+.wines p:nth-child(4) {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.wines p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.wines > a {
+    background-color: #AFD955;
+    color:white;
+    padding: 8px 25px;
 }
