@@ -1,0 +1,16 @@
+@font-face {
+   font-family: Bell;
+   src: url(../fonts/BELL.TTF);
+}
+
+p {
+    font-family: Bell;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+    font-weight: 700;
+    font-size: 40px;
+}
