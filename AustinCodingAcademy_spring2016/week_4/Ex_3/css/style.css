@@ -113,12 +113,12 @@ h3{
 
 #section3 div p:nth-child(1) {
     font-size: 25px;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 #section3 div p:nth-child(3) {
     font-size: 12px;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .wines {
