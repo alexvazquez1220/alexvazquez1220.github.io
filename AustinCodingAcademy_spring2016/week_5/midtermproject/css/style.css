@@ -1,0 +1,167 @@
+body {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+    background-color: #3333ff;
+    width: 98%;
+    padding: 4% 1%;
+}
+
+h1 {
+    font-size: 40px;
+    float:left;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+li:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+li:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+ul {
+    float:right;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    font-size:11px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+#part1 {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%), url('../img/tankpic1.jpg') no-repeat center;
+    padding: 180px 0;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#part1 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#part1 a {
+    background-color: #3333ff;
+    margin-top: 30px;
+}
+
+#getstarted {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#getstarted:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#getstarted:hover, #getstarted:focus, #getstarted:active {
+  color: white;
+}
+#getstarted:hover:before, #getstarted:focus:before, #getstarted:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+#sect2 {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.5) 100%), url('../img/sandbackground.jpg') no-repeat center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+#part2pic {
+    width:30%;
+    float:left;
+    overflow: auto;
+}
+
+#part2text {
+    width:70%;
+    position:absolute;
+    margin-left:30%;
+}
+h3 {
+    font-size: 25px;
+    padding-top: 165px;
+}
+
+#part2text p {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height:1.5;
+}
+/*-------
+background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine-bg.jpg') no-repeat center;
+----/
