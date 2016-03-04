@@ -135,10 +135,14 @@ h2 {
 }
 
 #sect2 {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.5) 100%), url('../img/sandbackground.jpg') no-repeat center;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.0) 100%), url('../img/sandbackground.jpg') no-repeat center;
     text-align: center;
     color: #fff;
     background-size: cover;
+}
+
+#sect2 p {
+    padding: 40px;
 }
 
 #part2pic {
@@ -161,6 +165,34 @@ h3 {
     padding-top: 40px;
     font-size: 18px;
     line-height:1.5;
+}
+
+#sect3 {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/freshwatergravel.jpg') no-repeat center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    height:400px
+}
+
+#sect3 img {
+    width:150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sect3 div div{
+    width:25%;
+    float:left;
+}
+
+#sect3 p:nth-child(2) {
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+#sect3 p:nth-child(3) {
+    font-size:18px;
 }
 /*-------
 background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine-bg.jpg') no-repeat center;
