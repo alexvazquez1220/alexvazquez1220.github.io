@@ -19,4 +19,13 @@
     line-height: 0;
     visibility: hidden;
 }
+
+Good for Images!
+
+background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%), url('../img/tankpic1.jpg') no-repeat center;
+    padding: 180px 0;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
 */
