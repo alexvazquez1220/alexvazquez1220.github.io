@@ -1,0 +1,68 @@
+nav {
+    font-family: 'Sigmar One', cursive;
+    background-color: rgba(22, 255, 127, .5);
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+nav h1{
+    font-size: 50px;
+    padding: 5px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+ul {
+    text-align: right;
+}
+
+#searchbox {
+    text-align: center;
+    background-color: rgba(204, 145, 38, .5);
+    margin-bottom: 40px;
+    padding: 20px;
+    
+}
+
+#blog {
+    background-color: rgba(204, 145, 38, .5);
+    text-align: center;
+    height: 249px;
+}
+
+#blog h4 {
+    margin-top: 90px;
+}
+
+.bigbox {
+    margin-top: 20px;
+    height:350px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.fourbox {
+    margin-top:20px;
+    height:250px;
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+
+.longbox {
+    margin-top: 20px;
+    height:70px;
+    background-color: green;
+    text-align: center;
+}
+
+.footer {
+    height: 100px;
+    margin-top: 20px;
+    background-color:yellow;
+}
+
