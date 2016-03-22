@@ -50,14 +50,15 @@ ul {
     height:250px;
     text-align: center;
     background-color: cornflowerblue;
-    
+    border-right: 10px white solid;
 }
 
 .longbox {
-    margin-top: 20px;
-    height:70px;
+    margin-top: 10px;
+    height:80px;
     background-color: green;
     text-align: center;
+    border: 5px white solid;
 }
 
 .footer {
@@ -65,4 +66,3 @@ ul {
     margin-top: 20px;
     background-color:yellow;
 }
-
