@@ -1,3 +1,5 @@
+/*------
+
 nav {
     font-family: 'Sigmar One', cursive;
     background-color: rgba(22, 255, 127, .5);
@@ -9,6 +11,30 @@ nav h1{
     font-size: 50px;
     padding: 5px;
 }
+------*/
+
+#mynav {
+    height: 150px;
+    background-color:crimson;
+}
+
+#pagenumbers {
+    margin-top: 80px;
+}
+
+#pagenumbers li a {
+    color:blue;
+    font-size: 18px;
+}
+
+#login li a {
+    color:blue;
+    font-size: 15px;
+}
+
+body {
+    padding-bottom: 150px;
+}
 
 li {
     text-decoration: none;
@@ -16,8 +42,10 @@ li {
     padding: 5px;
 }
 
-ul {
-    text-align: right;
+#login {
+    margin-top: 80px;
+    margin-right: 10px;
+    background-color: aliceblue;
 }
 
 #searchbox {

@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <!------- Old Nav Bar ----
     <nav class="row">
         <div class=col-lg-12 col-md-12 col-sm-12>
             <h1>The Liberty Hill Chef</h1>
@@ -37,9 +38,53 @@
             </ul>
         </div>
     </nav>
+    ------>
+    
+    <nav class="navbar navbar-default" id="mynav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="LH Chef Logo" src="img/chef-a-topia.png">
+                </a>
+            </div>
+            
+        <div>
+            <ul class="nav navbar-nav" id="pagenumbers">
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Gluten Free <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Recipes</li>
+                        <li><a href="#">Recipe 1</a></li>
+                        <li><a href="#">Recipe 2</a></li>
+                        <li><a href="#">Recipe 3</a></li>
+                    </ul>
+                     <li class="dropdown"><a href="#" data-toggle="dropdown">Meat Lovers <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Recipes</li>
+                        <li><a href="#">Recipe 1</a></li>
+                        <li><a href="#">Recipe 2</a></li>
+                        <li><a href="#">Recipe 3</a></li>
+                    </ul>
+                     <li class="dropdown"><a href="#" data-toggle="dropdown">Vegan <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Recipes</li>
+                        <li><a href="#">Recipe 1</a></li>
+                        <li><a href="#">Recipe 2</a></li>
+                        <li><a href="#">Recipe 3</a></li>
+                    </ul>
+                    <li><a href="#">Link to Something</a></li>
+            </ul>
 
+            <ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs" id="login">
+                <li><a href="#">signin</a></li>
+                <li><a href="#">new user</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </nav>
+    
     <div class="row">
-        <div id="carousel" class="col-lg-7 carousel slide" data-ride="carousel">
+        <div id="carousel" class="col-lg-7 col-md-7 col-sm-12 carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -49,7 +94,7 @@
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner col-lg-10" role="listbox">
+            <div class="carousel-inner col-lg-10 col-md-10 col-sm-12" role="listbox">
                 <div class="item active">
                     <img src="img/catfish.jpg" alt="Catfish">
                 </div>
@@ -78,7 +123,7 @@
             </div>
         </div>
 
-        <div id="searchbox" class="col-lg-5">
+        <div id="searchbox" class="col-lg-5 col-md-5 hidden-sm hidden-xs">
             <form action="action_page.php">
                 Search the Site:
                 <br>
@@ -87,7 +132,7 @@
             </form>
         </div>
 
-        <div id="blog" class="col-lg-5">
+        <div id="blog" class="col-lg-5 col-md-5 hidden-sm hidden-xs">
             <h4>Subscribe to our Blog!</h4>
             <button type="button" class="btn btn-primary btn-lg">SUBSCRIBE!</button>
         </div>
@@ -96,42 +141,42 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-4">
-            <div class="bigbox col-lg-11">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="bigbox col-lg-12">
 
                 <p>Photo</p>
 
             </div>
         </div>
 
-        <div class="col-lg-8">
-            <div class="fourbox col-lg-3">
+        <div class="col-lg-8 col-md-12">
+            <div class="fourbox col-lg-3 col-md-3 col-sm-6">
 
                 <p>Text + Photo</p>
 
             </div>
-            <div class="fourbox col-lg-3">
+            <div class="fourbox col-lg-3 col-md-3 col-sm-6">
 
                 <p>Text + Photo</p>
 
             </div>
-            <div class="fourbox col-lg-3">
+            <div class="fourbox col-lg-3 col-md-3 col-sm-6">
 
                 <p>Text + Photo</p>
 
             </div>
-            <div class="fourbox col-lg-3">
+            <div class="fourbox col-lg-3 col-md-3 col-sm-6">
 
                 <p>Text + Photo</p>
 
             </div>
         </div>
-            <div class="longbox col-lg-4">
+            <div class="longbox col-lg-4 col-md-6 col-sm-12">
 
             <h4>Stuff + Stuff</h4>
 
         </div>
-            <div class="longbox col-lg-4">
+            <div class="longbox col-lg-4 col-md-6 col-sm-12">
 
             <h4>Stuff + Stuff</h4>
 
