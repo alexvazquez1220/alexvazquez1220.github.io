@@ -1,0 +1,17 @@
+.my_logo {
+    width: 200px;
+}
+
+.my_header {
+  background-color: bisque;
+    padding:10px;
+}
+
+#carousel-example-generic {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top:0;
+}
