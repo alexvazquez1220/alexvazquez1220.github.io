@@ -1,0 +1,173 @@
+/*------
+
+nav {
+    font-family: 'Sigmar One', cursive;
+    background-color: rgba(22, 255, 127, .5);
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+nav h1{
+    font-size: 50px;
+    padding: 5px;
+}
+------*/
+
+#mynav {
+    height: 150px;
+    background-color:crimson;
+}
+
+#pagenumbers {
+    margin-top: 80px;
+}
+
+#pagenumbers li a {
+    color:blue;
+    font-size: 18px;
+}
+
+#login li a {
+    color:blue;
+    font-size: 15px;
+}
+
+.carousel {
+    max-height: 360px;
+    overflow: hidden;
+}
+
+body {
+    padding-bottom: 150px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+#login {
+    margin-top: 80px;
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+
+#searchbox {
+    text-align: center;
+    background-color: rgba(204, 145, 38, .5);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#blog {
+    background-color: rgba(204, 145, 38, .5);
+    text-align: center;
+    height: 230px;
+}
+
+#blog h4 {
+    margin-top: 90px;
+}
+
+.bigbox {
+    margin-top: 20px;
+    height:350px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.fourbox {
+    margin-top:20px;
+    height:250px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-right: 10px white solid;
+}
+
+.longbox {
+    margin-top: 10px;
+    height:80px;
+    background-color: green;
+    text-align: center;
+    border: 5px white solid;
+}
+
+.footer {
+    height: 100px;
+    margin-top: 20px;
+    background-color:yellow;
+}
+
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.affix-top,.affix-bottom {
+    width:100%;
+    position:fixed;
+    display:block;
+}
+  
+.affix {
+    display:none;
+}
+
+
+
+.bg-1 {
+	background: url('https://eat24-files-live.s3.amazonaws.com/cuisines/v4/sea-food.jpg?Signature=6nqlFe9ugxKMGmv1hGAS3mfRlXo%3D&Expires=1459135539&AWSAccessKeyId=AKIAIEJ2GCCJRT63TBYA') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('http://cdn.playbuzz.com/cdn/39f85817-18ad-4321-9908-03b342872b87/7838a2f8-fb2d-48e8-abc9-f7db942d3ede.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('http://universityofcalifornia.edu/sites/default/files/local-food.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+
+body {
+	background: url('/assets/64531/green_suburb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  	background-color:#333;
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+}
+
+a:link, a:visited {
+	color:#eee;
+}
+
+.blur {
+    -webkit-filter: blur(5px) grayscale(50%);
+}
