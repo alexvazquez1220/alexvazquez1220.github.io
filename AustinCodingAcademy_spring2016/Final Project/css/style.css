@@ -1,0 +1,53 @@
+* {
+    font-family:'Raleway', sans-serif; 
+}
+
+/* top contact info CSS */
+#contact_top {
+    background-color: rgb(38,57,55);
+    color:white;
+    height: 80px;
+    border-bottom: rgb(189,159,84) solid 3px;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#contact_top img {
+    width:140px;
+    height:55px;
+    margin-top: 10px;
+}
+
+/* end of top contact info CSS */
+
+/* CSS for Nav Bar */
+
+.navbar {
+    height:130px;
+    background-color: rgb(38,57,55);
+}
+
+.navbar img {
+    margin-top: 5px
+}
+
+/* font CSS for Raleway 
+font-family: 'Raleway', sans-serif; */
+
+/* Issues
+
+1. Hide FB link or shrink when in phone size.
+2.
+3.
+4.
+
+
+*/
