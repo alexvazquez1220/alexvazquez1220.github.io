@@ -266,9 +266,11 @@ body {
     background-color: rgb(189,159,84);
     height:50px;
     color:white;
-    text-align: center
 }
 
+#copyright p {
+    margin: 0;
+}
 
 
 /* font CSS for Raleway 
