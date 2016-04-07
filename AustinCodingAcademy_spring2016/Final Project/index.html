@@ -37,39 +37,42 @@
             <div class="col-xs-12" id="contact_top">
                 <p class="col-xs-4">Call us: <a href="tel:5125485065">512.548.5065</a></p>
                 <p class="col-xs-6">e-mail: <a href="mailto:mfults@comanchetrailvet.com">mfults@comanchetrailvet.com</a></p>
-                <a class="col-xs-2" href="https://www.facebook.com/ComancheTrailVet" target="_blank">
+                <a class="col-md-2 hidden-sm hidden-xs" href="https://www.facebook.com/ComancheTrailVet" target="_blank">
                     <img src="img/Follow_us_on_Facebook.png" alt="facebook page" title="Follow us on Facebook" align="right" /></a>
             </div>
         </div>
     </div>
     <!----- Nav Bar ----->
-    <div class="row">
-        <nav class="col-xs-12 navbar navbar-default" id="mynav">
+    <div class="container-fluid">
+        <div class="row" id="navrow">
+            <nav class="col-xs-12 navbar navbar-default" id="mynav">
 
-            <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand">
-                        <img id="logo" src="img/Comanche%20Trail%20Logo%20Main.jpg" alt="Comanche Trail vet logo" title="Comanche Trail Vet Center">
-                    </a>
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            <img id="logo" src="img/Comanche%20Trail%20Logo%20Main.jpg" alt="Comanche Trail vet logo" title="Comanche Trail Vet Center">
+                        </a>
+                    </div>
+
+                    <div id="nav_collapse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right" id="mycollapse">
+                            <li id="nav_items"><a href="#services">Services</a></li>
+                            <li><a href="#location">Location</a></li>
+                            <li><a href="#staff">Staff</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#stories">Pet Stories</a></li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div id="nav_collapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right" id="mycollapse">
-                        <li id="nav_items"><a href="#">Services</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Staff/Bios</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Pet Stories</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+    </div>
         <!------- Main Image area ---->
         <div class="container-fluid">
             <div class="row" id="main_area">
@@ -88,21 +91,21 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12" id="services">
-                    <h3>Our Services</h3>
+                    <h3 class="text-center">Our Services</h3>
                     <div class="col-xs-3">
                         <h4>Vaccinations</h4>
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
                     </div>
                     <div class="col-xs-3">
-                        <h4>Vaccinations</h4>
+                        <h4>Internal Medicine</h4>
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
                     </div>
                     <div class="col-xs-3">
-                        <h4>Vaccinations</h4>
+                        <h4>Surgeries</h4>
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
                     </div>
                     <div class="col-xs-3">
-                        <h4>Vaccinations</h4>
+                        <h4>Diagnostic</h4>
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
                     </div>
                 </div>
@@ -113,11 +116,15 @@
             <div class="row">
                 <div class="col-xs-12" id="location">
                     <div class="col-xs-6">
-                        <h3>Address</h3>
-
-
-                        <h3>Hours</h3>
-
+                        <h3><u>Address</u></h3>
+                        <p>14370 W highway 29, Suite 9</p>
+                        <p>Liberty Hill, TX 78642</p>
+                        <h3><u>Hours</u></h3>
+                        <p>Mon - Fri : 7am-6pm</p>
+                        <p>Saturday : 9am-1pm</p>
+                        <p>Appointments and refill requests are available from 9am until 1pm and 3pm until 6pm.</p>
+                        <br>
+                        <p><u>Dr Martin is out of the office from 1pm-3pm daily.</u></p>
                     </div>
                     <div class="col-xs-6 google-maps">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.5902322229103!2d-97.92352898445077!3d30.673665295527112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865ad7c96285d965%3A0x891c20474e03d0e1!2sComanche+Trail+Veterinary+Center!5e0!3m2!1sen!2sus!4v1459906623021" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -128,8 +135,8 @@
         <!---- Staff ----->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12" id="services">
-                    <h3>Our Staff</h3>
+                <div class="col-xs-12" id="staff">
+                    <h3 class="text-center">Our Staff</h3>
                     <div class="col-xs-3">
                         <img src="http://placehold.it/200x200">
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
@@ -154,144 +161,60 @@
         <!---- Gallery Area - Using Isotope ----->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 text-center">
+                <div class="col-xs-12 text-center" id="gallery">
                     <h3>Our Gallery</h3>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12">
-        <h1>Isotope - filtering &amp; sorting</h1>
-        <h2>Filter</h2>
-        <div id="filters" class="button-group">
-            <button class="button is-checked" data-filter="*">show all</button>
-            <button class="button" data-filter=".metal">metal</button>
-            <button class="button" data-filter=".transition">transition</button>
-            <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-            <button class="button" data-filter=":not(.transition)">not transition</button>
-            <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
-            <button class="button" data-filter="numberGreaterThan50">number > 50</button>
-            <button class="button" data-filter="ium">name ends with &ndash;ium</button>
-        </div>
+        <div class="col-xs-12" id="photos">
+            <h3 class=text-center>Some of our happy patients</h3>
+            <div id="filters" class="button-group">
+                <button class="button is-checked" data-filter="*">show all</button>
+                <button class="button" data-filter=".dog">Dogs</button>
+                <button class="button" data-filter=".cat">Cats</button>
+                <button class="button" data-filter=".bird">Birds</button>
+                <button class="button" data-filter=":.farm">Farm</button>
+            </div>
 
-        <h2>Sort</h2>
-        <div id="sorts" class="button-group">
-            <button class="button is-checked" data-sort-by="original-order">original order</button>
-            <button class="button" data-sort-by="name">name</button>
-            <button class="button" data-sort-by="symbol">symbol</button>
-            <button class="button" data-sort-by="number">number</button>
-            <button class="button" data-sort-by="weight">weight</button>
-            <button class="button" data-sort-by="category">category</button>
-        </div>
 
-        <div class="isotope">
-            <div class="element-item transition metal " data-category="transition">
-                <h3 class="name">Mercury</h3>
-                <p class="symbol">Hg</p>
-                <p class="number">80</p>
-                <p class="weight">200.59</p>
-            </div>
-            <div class="element-item metalloid " data-category="metalloid">
-                <h3 class="name">Tellurium</h3>
-                <p class="symbol">Te</p>
-                <p class="number">52</p>
-                <p class="weight">127.6</p>
-            </div>
-            <div class="element-item post-transition metal " data-category="post-transition">
-                <h3 class="name">Bismuth</h3>
-                <p class="symbol">Bi</p>
-                <p class="number">83</p>
-                <p class="weight">208.980</p>
-            </div>
-            <div class="element-item post-transition metal " data-category="post-transition">
-                <h3 class="name">Lead</h3>
-                <p class="symbol">Pb</p>
-                <p class="number">82</p>
-                <p class="weight">207.2</p>
-            </div>
-            <div class="element-item transition metal " data-category="transition">
-                <h3 class="name">Gold</h3>
-                <p class="symbol">Au</p>
-                <p class="number">79</p>
-                <p class="weight">196.967</p>
-            </div>
-            <div class="element-item alkali metal " data-category="alkali">
-                <h3 class="name">Potassium</h3>
-                <p class="symbol">K</p>
-                <p class="number">19</p>
-                <p class="weight">39.0983</p>
-            </div>
-            <div class="element-item alkali metal " data-category="alkali">
-                <h3 class="name">Sodium</h3>
-                <p class="symbol">Na</p>
-                <p class="number">11</p>
-                <p class="weight">22.99</p>
-            </div>
-            <div class="element-item transition metal " data-category="transition">
-                <h3 class="name">Cadmium</h3>
-                <p class="symbol">Cd</p>
-                <p class="number">48</p>
-                <p class="weight">112.411</p>
-            </div>
-            <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
-                <h3 class="name">Calcium</h3>
-                <p class="symbol">Ca</p>
-                <p class="number">20</p>
-                <p class="weight">40.078</p>
-            </div>
-            <div class="element-item transition metal " data-category="transition">
-                <h3 class="name">Rhenium</h3>
-                <p class="symbol">Re</p>
-                <p class="number">75</p>
-                <p class="weight">186.207</p>
-            </div>
-            <div class="element-item post-transition metal " data-category="post-transition">
-                <h3 class="name">Thallium</h3>
-                <p class="symbol">Tl</p>
-                <p class="number">81</p>
-                <p class="weight">204.383</p>
-            </div>
-            <div class="element-item metalloid " data-category="metalloid">
-                <h3 class="name">Antimony</h3>
-                <p class="symbol">Sb</p>
-                <p class="number">51</p>
-                <p class="weight">121.76</p>
-            </div>
-            <div class="element-item transition metal " data-category="transition">
-                <h3 class="name">Cobalt</h3>
-                <p class="symbol">Co</p>
-                <p class="number">27</p>
-                <p class="weight">58.933</p>
-            </div>
-            <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
-                <h3 class="name">Ytterbium</h3>
-                <p class="symbol">Yb</p>
-                <p class="number">70</p>
-                <p class="weight">173.054</p>
-            </div>
-            <div class="element-item noble-gas nonmetal " data-category="noble-gas">
-                <h3 class="name">Argon</h3>
-                <p class="symbol">Ar</p>
-                <p class="number">18</p>
-                <p class="weight">39.948</p>
-            </div>
-            <div class="element-item diatomic nonmetal " data-category="diatomic">
-                <h3 class="name">Nitrogen</h3>
-                <p class="symbol">N</p>
-                <p class="number">7</p>
-                <p class="weight">14.007</p>
-            </div>
-            <div class="element-item actinoid metal inner-transition " data-category="actinoid">
-                <h3 class="name">Uranium</h3>
-                <p class="symbol">U</p>
-                <p class="number">92</p>
-                <p class="weight">238.029</p>
-            </div>
-            <div class="element-item actinoid metal inner-transition " data-category="actinoid">
-                <h3 class="name">Plutonium</h3>
-                <p class="symbol">Pu</p>
-                <p class="number">94</p>
-                <p class="weight">(244)</p>
-            </div>
+            <div class="isotope col-xs-12">
+                <div class="element-item dog " data-category="dog">
+                    <img src="img/red%20shiba.jpg" alt="shiba" title="red  shiba" />
+                </div>
+                <div class="element-item dog " data-category="dog">
+                    <img src="img/cream%20shiba.jpg" alt="shiba" title="cream shiba" />
+                </div>
+                <div class="element-item dog " data-category="dog">
+                    <img src="img/B&T%20shiba.jpg" alt="shiba" title="BandT shiba" />
+                </div>
+                <div class="element-item cat " data-category="cat">
+                    <img src="img/cat1.jpg" alt="cat" title="furry cat" />
+                    
+                </div>
+                <div class="element-item cat " data-category="cat">
+                    <img src="img/cat2.jpg" alt="cat" title="furry cat" />
+                    
+                </div>
+                <div class="element-item cat " data-category="cat">
+                    <img src="img/cat3.jpg" alt="cat" title="furry cat" />
+                    
+                </div>
+                <div class="element-item bird " data-category="bird">
+                    <img src="img/parrot1.jpeg" alt="parrot" title="parrot" />
+                </div>
+                <div class="element-item bird " data-category="bird">
+                    <img src="img/parrot2.jpg" alt="parrot" title="parrot" />
+                </div>
+                
+                <div class="element-item farm " data-category="farm">
+                    <img src="img/donkey.jpg" alt="donkey" title="donkey" />
+                </div>
+                <div class="element-item farm " data-category="farm">
+                    <img src="img/horse1.jpg" alt="horse" title="horse" />
+                </div>
+                <div class="element-item farm " data-category="farm">
+                    <img src="img/longhorn.jpg" alt="longhorn" title="longhorn" />
+                </div>
             </div>
         </div>
 
@@ -299,8 +222,8 @@
         <!-----Pet Stories----->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12" id="services">
-                    <h3>Pet Stories</h3>
+                <div class="col-xs-12" id="stories">
+                    <h3 class="text-center">Pet Stories</h3>
                     <div class="col-xs-3">
                         <img src="http://placehold.it/200x200">
                         <p>Quis singulis do exquisitaque, ad cillum veniam nisi consequat. Ea voluptate ubi nostrud an irure voluptate est philosophari. Do minim voluptate arbitrantur.</p>
@@ -324,13 +247,13 @@
         <div class="container-fluid">
             <div class="row" id="Contactinfo">
                 <div class="col-xs-12">
-                    <div col-xs-2>
-                        <img src="x" />
+                    <div col-xs-12>
+                        <img class="col-xs-1" src="img/Comanche-Trail-Vet-Cent.jpg" />
+                        <h3 class="col-xs-5">Contact us</h3>
+                        <p><a href="tel:5125485065">512.548.5065</a></p>
                     </div>
-                    <div col-xs-10>
-                        <h3>Contact us</h3>
-                        
-                        <h3>Links</h3>
+                    <div class="col-xs-12">
+                        <p>copyright info</p>
                     </div>
                 </div>
             </div>
