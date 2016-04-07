@@ -257,15 +257,21 @@ body {
     overflow: hidden;
 }
 
+#Contactinfo {
+    color:white;
+}
+
+
+#copyright {
+    background-color: rgb(189,159,84);
+    height:50px;
+    color:white;
+    text-align: center
+}
+
+
+
 /* font CSS for Raleway 
 font-family: 'Raleway', sans-serif; */
 
-/* Issues
 
-1. Hide FB link or shrink when in phone size.
-2.
-3.
-4.
-
-
-*/
